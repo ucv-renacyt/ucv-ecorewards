@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">EcoRewards</string>
+    <string name="numero_dos">2</string>
+
+
+    //CANJE
+    <string name="Regresar">Regresar</string>
+    <string name="canje_exitoso_mensaje">Se ha canjeado \'%1$s\'correctamente</string>
+    <string name="Nombres">Nombres</string>
+    <string name="_3">3</string>
+    //INICIO
+    <string name="todo">TODO</string>
+    <string name="reduce_f_cilmente_la_generaci_n_de_residuos_dom_sticos_y_gana_puntos_para_canjear">Reduce fácilmente la generación de residuos domésticos y gana puntos para canjear.</string>
+    <string name="recicla_tus_residuos">Recicla tus residuos!</string>
+    <string name="inicio">INICIO</string>
+    <string name="iniciar_sesi_n">INICIAR SESIÓN</string>
+    <string name="registrarse">REGISTRARSE</string>
+    //Login
+    <string name="correo_electr_nico">Correo electrónico</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="_8">8</string>
+    <string name="_4">4</string>
+    <string name="_1">1</string>
+    <string name="_5">5</string>
+    <string name="_7">7</string>
+    <string name="_0">0</string>
+    <string name="_6">6</string>
+    <string name="ecorewards">EcoRewards</string>
+    <string name="_9">9</string>
+    <string name="no_tienes_una_cuenta">No tienes una cuenta?</string>
+    <string name="olvidaste_la_contrase_a">¿ Olvidaste la contraseña ?</string>
+    <string name="borrar">Borrar</string>
+    <string name="iniciar_sesi_nlogin1">INICIAR SESIÓN</string>
+    <string name="iniciar_sesi_nlogin2">INICIAR SESIÓN</string>
+    <string name="ingrese_su_correo_electr_nico">Ingrese su correo electrónico</string>
+</resources>

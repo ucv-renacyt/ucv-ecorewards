@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainTienda">
+
+    <TextView
+        android:id="@+id/txvTienda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="TIENDA"
+        android:textColor="#040404"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txvCanjearRecompensas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="33dp"
+        android:text="Canjear Recompensas"
+        android:textColor="#0B0B0B"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvTienda" />
+
+    <ImageView
+        android:id="@+id/premio4"
+        android:layout_width="146dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#50E157"
+        android:importantForAccessibility="no"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/premio3"
+        app:layout_constraintTop_toBottomOf="@+id/btnCanjearGalle"
+        app:srcCompat="@drawable/premio4" />
+
+    <ImageView
+        android:id="@+id/premio1"
+        android:layout_width="137dp"
+        android:layout_height="152dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="13dp"
+        android:backgroundTint="#50E157"
+        android:importantForAccessibility="no"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/premio2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvCanjearRecompensas"
+        app:srcCompat="@drawable/premio1" />
+
+    <ImageView
+        android:id="@+id/premio2"
+        android:layout_width="140dp"
+        android:layout_height="153dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="18dp"
+        android:backgroundTint="#50E157"
+        android:importantForAccessibility="no"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/premio1"
+        app:layout_constraintTop_toBottomOf="@+id/txvCanjearRecompensas"
+        app:srcCompat="@drawable/premio2" />
+
+    <ImageView
+        android:id="@+id/premio3"
+        android:layout_width="149dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="57dp"
+        android:backgroundTint="#50E157"
+        android:importantForAccessibility="no"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/premio4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCanjearAgua"
+        app:srcCompat="@drawable/premio3" />
+
+    <Button
+        android:id="@+id/btnCanjearAgua"
+        android:layout_width="154dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#50E157"
+        android:text="Canjear"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/premio1"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnCanjearGalle"
+        android:layout_width="166dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#50E157"
+        android:text="Canjear"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toEndOf="@+id/btnCanjearAgua"
+        app:layout_constraintTop_toBottomOf="@+id/premio2"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnCanjearPen"
+        android:layout_width="160dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="31dp"
+        android:backgroundTint="#50E157"
+        android:text="Canjear"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnCanjearLa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/premio3"
+        app:layout_constraintVertical_bias="0.106"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnCanjearLa"
+        android:layout_width="160dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="29dp"
+        android:backgroundTint="#50E157"
+        android:text="Canjear"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnCanjearPen"
+        app:layout_constraintTop_toBottomOf="@+id/premio4"
+        app:layout_constraintVertical_bias="0.086"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnRegresar1"
+        android:layout_width="158dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="127dp"
+        android:layout_marginEnd="126dp"
+        android:backgroundTint="#50E157"
+        android:text="Regresar"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/menu" />
+</androidx.constraintlayout.widget.ConstraintLayout>

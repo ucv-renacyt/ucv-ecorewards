@@ -33,4 +33,5 @@
     <string name="iniciar_sesi_nlogin1">INICIAR SESIÓN</string>
     <string name="iniciar_sesi_nlogin2">INICIAR SESIÓN</string>
     <string name="ingrese_su_correo_electr_nico">Ingrese su correo electrónico</string>
+    <string name="ingrese_su_contrasena">Ingrese su contraseña aquí</string>
 </resources>

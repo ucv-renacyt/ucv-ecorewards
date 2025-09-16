@@ -12,24 +12,14 @@
         android:id="@+id/txvMenuPrincipal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
         android:text="MENÚ PRINCIPAL"
         android:textColor="#020202"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="30dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/menu" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/txvBienvenido"
@@ -61,21 +51,20 @@
 
     <TextView
         android:id="@+id/txvPuntos"
-        android:layout_width="97dp"
-        android:layout_height="32dp"
-        android:textColor="#40D700"
+        android:layout_width="133dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="36dp"
+        android:textColor="#266B05"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/imvCanjear"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.853"
-        app:layout_constraintStart_toEndOf="@+id/txvPuntosActuales"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.41" />
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toEndOf="@+id/txvPuntosActuales" />
 
     <ImageButton
         android:id="@+id/imvCanjear"
-        android:layout_height="164dp"
-        android:layout_width="317dp"
+        android:layout_width="291dp"
+        android:layout_height="144dp"
         android:layout_marginStart="62dp"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="63dp"

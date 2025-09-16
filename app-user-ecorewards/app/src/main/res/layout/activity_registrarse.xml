@@ -82,17 +82,14 @@
         android:id="@+id/txvRegistrarse"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="202dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
         android:text="REGISTRARSE"
         android:textColor="#020202"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.2"
-        app:layout_constraintStart_toEndOf="@+id/imvMenu"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
         android:id="@+id/txvLinkLogin"
@@ -152,11 +149,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="44dp"
         android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toStartOf="@+id/txdNombres"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imvMenu"
+        app:layout_constraintTop_toBottomOf="@id/txvRegistrarse"
         app:srcCompat="@drawable/usuario" />
 
     <EditText
@@ -214,17 +211,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txvApellidos"
         app:srcCompat="@drawable/correo" />
-
-    <ImageView
-        android:id="@+id/imvMenu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="30dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/menu"
-        android:background="@android:color/white"/>
 
     <EditText
         android:id="@+id/txdNombres"

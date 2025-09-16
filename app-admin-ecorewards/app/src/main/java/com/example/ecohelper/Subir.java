@@ -154,7 +154,6 @@ public class Subir extends AppCompatActivity {
                     .addOnFailureListener(e -> {
                         // Error específico al subir el archivo a Storage
                         Toast.makeText(Subir.this, "Error al subir la imagen a Storage: " + e.getMessage(), Toast.LENGTH_LONG).show();
-                        // Aquí NO se debería llamar a mostrarNotificacion() ni limpiarCampos() si la subida inicial falla
                     });
         } else {
             Toast.makeText(this, "Selecciona una imagen para subir", Toast.LENGTH_SHORT).show();
@@ -190,7 +189,7 @@ public class Subir extends AppCompatActivity {
             if (notificationManager != null) {
                 notificationManager.createNotificationChannel(channel);
             }
-        }
+}
     }
 
     @Override
